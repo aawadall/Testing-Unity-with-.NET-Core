@@ -3,5 +3,8 @@ mono: none
 dotnet: 2.1.300
 
 script:
+  - sudo apt install gdebi
+  - wget http://beta.unity3d.com/download/ee86734cf592/unity-editor_amd64-2017.2.0f3.deb
+  - sudo gdebi unity-editor_amd64-2017.2.0f3.deb  
   - dotnet restore  ./Unity-with-.NET-Core/Assembly-CSharp.csproj
   - dotnet build ./Unity-with-.NET-Core/Assembly-CSharp.csproj
