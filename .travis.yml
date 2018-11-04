@@ -3,5 +3,5 @@ mono: none
 dotnet: 2.1.300
 
 script:
-  - dotnet restore  ./Unity\ with\ .NET \Core/Assembly-CSharp.csproj
-  - dotnet build ./Unity\ with\ .NET \Core/Assembly-CSharp.csproj
+  - dotnet restore  ./Unity with .NET Core/Assembly-CSharp.csproj
+  - dotnet build ./Unity with .NET Core/Assembly-CSharp.csproj
